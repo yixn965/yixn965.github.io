@@ -5,7 +5,7 @@
   --global-bg-color: #ffffff;
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #002D72;
+  --global-theme-color: #4A90C2;
   --global-hover-color: #ffb81c;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .topnav {
-  background-color: #002D72;
+  background-color: #4A90C2;
   overflow: hidden;
   position: fixed;
   z-index: 999;
@@ -77,20 +77,21 @@ section {
 }
 
 .image.avatar {
-  border-radius: 100%;
+  border-radius: 0;
+  margin: 0 0 1em 0;
 }
 
 .image.avatar img {
-  border-radius: 100%;
-  width: 104px;
-  height: 104px;
-  padding: 20px;
+  border-radius: 0;
+  width: 150px;
+  height: 150px;
+  padding: 0;
   object-fit: cover;
 }
 
 h1 {
   font-weight: 500;
-  color: #002D72;
+  color: #4A90C2;
   margin: 0 0 20px;
   font-size: 28px;
   line-height: 1.1;
@@ -98,7 +99,7 @@ h1 {
 }
 
 h2 {
-  color: #002D72;
+  color: #4A90C2;
   font-weight: 500;
   margin: 2px 0px 15px;
   font-size: 157%;
@@ -111,7 +112,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  color: #002D72;
+  color: #4A90C2;
   margin: 0 0 20px;
 }
 
@@ -169,7 +170,7 @@ img {
   height: 2.4rem;
   width: 2.4rem;
   background-color: transparent;
-  color: #002D72 !important;
+  color: #4A90C2 !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.15rem;
@@ -309,10 +310,10 @@ img {
   }
 
   .image.avatar img {
-    border-radius: 100%;
-    width: 117px;
-    height: 117px;
-    padding: 20px 20px 20px 20px;
+    border-radius: 0;
+    width: 150px;
+    height: 150px;
+    padding: 0;
     object-fit: cover;
   }
 
@@ -343,10 +344,10 @@ img {
   }
 
   .image.avatar img {
-    border-radius: 100%;
-    width: 95px;
-    height: 95px;
-    padding: 20px;
+    border-radius: 0;
+    width: 140px;
+    height: 140px;
+    padding: 0;
     object-fit: cover;
   }
 }
