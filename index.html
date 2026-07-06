@@ -1,82 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jing Gao's personal academic homepage.">
-  <title>Jing Gao</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav class="topnav" aria-label="Primary navigation">
-    <a class="nav-name" href="#top">Jing Gao</a>
-    <div class="nav-links">
-      <a href="#about-me">Bio</a>
-      <a href="#publications">Publications</a>
-    </div>
-  </nav>
+<html lang="en-US">
+  <head>
+    <title>Jing Gao's Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Jing Gao">
+    <meta name="keywords" content="Jing Gao, 3D reconstruction, efficiency">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <div id="top" class="wrapper">
-    <aside class="sidebar" aria-label="Profile">
-      <a class="avatar" href="#top">
-        <img src="assets/figure/person/Jing_Gao.jpg" alt="Jing Gao">
-      </a>
-
-      <h1>Jing Gao</h1>
-      <p class="position">Beijing Jiao Tong University</p>
-      <p class="email">
-        <a href="mailto:22331159@bjtu.edu.cn">22331159@bjtu.edu.cn</a>
-      </p>
-
-      <div class="social-links" aria-label="Profile links">
-        <a href="mailto:22331159@bjtu.edu.cn">Email</a>
-        <a href="https://github.com/yixn965">GitHub</a>
+  <body>
+    <div class="topnav">
+      <div id="myLinks">
+        <a class="normal right" href="#publications">Publications</a>
+        <a class="normal" href="#about-me">Bio</a>
       </div>
-    </aside>
+    </div>
 
-    <main class="content">
-      <section id="about-me" class="section">
-        <p>
+    <div class="wrapper">
+      <header>
+        <a class="image avatar"><img src="assets/figure/person/Jing_Gao.jpg" alt="avatar"></a>
+
+        <h1>Jing Gao</h1>
+        <position style="font-size:1.10rem;">Direct Ph.D. Student</position>
+        <br>
+        <a href="https://www.bjtu.edu.cn/" rel="noopener"><autocolor>Beijing Jiaotong University</autocolor></a>
+        <br>
+        <email>22331159@bjtu.edu.cn</email>
+
+        <br>
+        <br>
+
+        <div class="social-icons">
+          <a style="margin: 0 5px 0 0" href="mailto:22331159@bjtu.edu.cn" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a style="margin: 0 0 0 0" href="https://github.com/yixn965" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <br>
+      </header>
+
+      <section>
+        <h1 id="about-me"></h1>
+
+        <p class="bio-intro">
           I am Jing Gao. I received my B.Eng. in Computer Science and Technology from Zhan Tianyou
           College, Beijing Jiaotong University in 2026, and will pursue a direct Ph.D. at Beijing
           Jiaotong University, advised by Prof. <a href="https://weiwangtrento.github.io/">Wei Wang</a>.
           My research interests include <strong>efficiency</strong> and <strong>3D reconstruction</strong>.
         </p>
-      </section>
 
-      <section id="publications" class="section">
-        <h2>Publications</h2>
+        <h1 id="publications"></h1>
+        <h2 style="margin: 60px 0px -15px;">Publications</h2>
 
-        <ol class="bibliography">
-          <li>
-            <div class="pub-row">
-              <div class="pub-media">
-                <a href="https://yixn965.github.io/LIST3R/">
-                  <img src="https://yixn965.github.io/LIST3R/assets/figs/teaser.png" alt="LIST3R teaser visualization">
-                </a>
-                <span class="badge">arXiv</span>
-              </div>
-
-              <div class="pub-copy">
-                <div class="title">LIST3R: Long-sequence Instance-aware 3D Reconstruction</div>
-                <div class="authors">
-                  <strong>Jing Gao</strong>,
-                  <a href="https://weiwangtrento.github.io/">Wei Wang</a>,
-                  <a href="https://brack-wang.github.io/">Feiran Wang</a>,
-                  <a href="https://tomyan555.github.io/">Yan Yan</a>
+        <div class="publications">
+          <ol class="bibliography">
+            <li>
+              <div class="pub-row">
+                <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+                  <img src="https://yixn965.github.io/LIST3R/assets/figs/teaser.png" class="teaser img-fluid z-depth-1" alt="LIST3R">
+                  <abbr class="badge">arXiv</abbr>
                 </div>
-                <div class="periodical">arXiv preprint, 2026</div>
-                <div class="paper-links" aria-label="LIST3R links">
-                  <a href="https://arxiv.org/abs/2607.00375">[Paper]</a>
-                  <a href="https://github.com/yixn965/LIST3R">[Code]</a>
-                  <a href="https://yixn965.github.io/LIST3R/">[Project]</a>
+                <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+                  <div class="title">LIST3R: Long-sequence Instance-aware 3D Reconstruction</div>
+                  <div class="author">
+                    <strong>Jing Gao</strong>,
+                    <a href="https://weiwangtrento.github.io/">Wei Wang</a>,
+                    <a href="https://brack-wang.github.io/">Feiran Wang</a>,
+                    <a href="https://tomyan555.github.io/">Yan Yan</a>
+                    <br>
+                  </div>
+                  <div class="periodical">arXiv preprint, 2026</div>
+                  <a href="https://arxiv.org/abs/2607.00375" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:16px;">[Paper]</a>
+                  <a href="https://github.com/yixn965/LIST3R" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:16px;">[Code]</a>
+                  <a href="https://yixn965.github.io/LIST3R/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:16px;">[Project]</a>
                 </div>
               </div>
-            </div>
-          </li>
-        </ol>
+            </li>
+          </ol>
+        </div>
+
+        <br>
       </section>
-    </main>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
