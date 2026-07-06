@@ -160,6 +160,15 @@ img {
   margin: 60px 0 20px;
 }
 
+.awards {
+  margin: 0 0 20px 18px;
+  padding-left: 0;
+}
+
+.awards li {
+  margin-bottom: 4px;
+}
+
 .pub-row {
   display: flex;
   align-items: center;
