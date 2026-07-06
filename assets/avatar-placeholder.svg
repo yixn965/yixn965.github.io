@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Jing Gao portrait placeholder</title>
+  <desc id="desc">A simple placeholder image with the initials JG.</desc>
+  <rect width="400" height="400" fill="#f7f8f5"/>
+  <rect x="28" y="28" width="344" height="344" rx="8" fill="#ffffff" stroke="#dce2dc" stroke-width="3"/>
+  <circle cx="200" cy="152" r="64" fill="#dbe9e3"/>
+  <path d="M92 330c18-70 65-106 108-106s90 36 108 106" fill="#dbe9e3"/>
+  <text x="200" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#0c6b5d">JG</text>
+</svg>
