@@ -49,12 +49,12 @@ body {
 }
 
 .wrapper {
-  width: 960px;
+  width: 1120px;
   margin: 0 auto;
 }
 
 header {
-  width: 232px;
+  width: 250px;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -63,7 +63,7 @@ header {
 }
 
 section {
-  width: 650px;
+  width: 800px;
   float: right;
   padding-top: 1.2em;
   padding-bottom: 50px;
@@ -289,7 +289,7 @@ img {
   }
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1120px) {
   body {
     word-wrap: break-word;
     padding: 0px;
