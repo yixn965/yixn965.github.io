@@ -15,9 +15,6 @@ The page will be available at:
 https://yixn965.github.io/
 ```
 
-## Update The Photo
-
-Replace `assets/avatar-placeholder.svg` with your own image, or add `assets/avatar.jpg` and update the image path in `index.html`.
 
 ## Optional Links
 
