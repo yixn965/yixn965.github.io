@@ -171,7 +171,7 @@ img {
 
 .pub-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .social-icons a {
@@ -256,6 +256,15 @@ img {
   font-weight: bolder;
 }
 
+<<<<<<< HEAD
+=======
+.publication-abstract {
+  margin: 6px 0;
+  line-height: 1.55;
+  text-align: justify;
+}
+
+>>>>>>> c6615dbbaf5a9aa80185f0c166324b896f13e23b
 .publications ol.bibliography li .author a {
   border-bottom: 1px var(--global-theme-color);
 }
@@ -328,7 +337,7 @@ img {
 
   .pub-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 
