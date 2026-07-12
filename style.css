@@ -171,18 +171,7 @@ img {
 
 .pub-row {
   display: flex;
-  align-items: flex-start;
-}
-
-.pub-row .col-sm-3 {
-  box-sizing: border-box;
-  flex: 0 0 300px;
-}
-
-.pub-row .col-sm-9 {
-  box-sizing: border-box;
-  flex: 1 1 auto;
-  min-width: 0;
+  align-items: center;
 }
 
 .social-icons a {
@@ -339,7 +328,7 @@ img {
 
   .pub-row {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
 }
 
@@ -361,15 +350,6 @@ img {
   .pub-row {
     display: block;
     align-items: center;
-  }
-
-  .pub-row .col-sm-3,
-  .pub-row .col-sm-9 {
-    width: auto;
-  }
-
-  .pub-row .col-sm-3 {
-    flex-basis: auto;
   }
 
   .image.avatar img {
